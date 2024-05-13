@@ -13,43 +13,12 @@
         <div class="content">
             <p>The SIM Sever Is Now..</p>
             <h1>Sever <span>Launching </span>soon</h1>
-            <div class="launch-time">
-                <div>
-                    <p id="hours">00</p>
-                    <span>hours</span>
-                </div>
-                <div>
-                    <p id="minutes">00</p>
-                    <span>minutes</span>
-                </div>
-                <div>
-                    <p id="seconds">00</p>
-                    <span>seconds</span>
-                </div>
                 <div class="IP"><p>sv4.mc4.in:50465</p></div>
             </div>
         </div>
 
     </div>
 
-    <script>
-
-        var countDownDate = new Date("May 13, 2024 18:10:00").getTime();
-        var x = setInterval(function() {
-            var now = new Date().getTime();
-            var distance = countDownDate - now;
-
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            document.getElementById("hours").innerHTML= hours;
-            document.getElementById("minutes").innerHTML= minutes;
-            document.getElementById("seconds").innerHTML= seconds;
-
-        }, 1000);
-
-    </script>
 
 </body>
 </html>
