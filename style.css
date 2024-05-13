@@ -33,6 +33,11 @@
 .content h1 span{
     color: #ff3753;
 }
+.content IP {
+    font-size: 32px;
+    font-weight: 600;
+    color: #42f572;
+}
 .launch-time{
     display: flex;
 }
